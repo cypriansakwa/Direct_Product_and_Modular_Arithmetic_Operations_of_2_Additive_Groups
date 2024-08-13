@@ -3,7 +3,7 @@
 version = 3
 
 [[package]]
-name = "Direct_Product_Additive_Z_n"
+name = "Direct_Product_and_Modular_Arithmetic_Operations_of_2_Additive_Groups"
 version = "0.1.0"
 dependencies = [
  "num",

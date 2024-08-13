@@ -11,7 +11,7 @@ fn direct_product(n: u32, m: u32) -> Vec<(u32, u32)> {
     let mut product = Vec::new();
     for &a in &zn_elements {
         for &b in &zm_elements {
-            product.push((a, b));
+            product.push((a, b)); 
         }
     }
     product
@@ -28,7 +28,7 @@ fn inverse_mod((t, s): (u32, u32), n: u32, m: u32) -> (u32, u32) {
 }
 
 fn main() {
-    let n = 5;
+    let n = 10;
     let m = 8;
 
     let elements = direct_product(n, m);
