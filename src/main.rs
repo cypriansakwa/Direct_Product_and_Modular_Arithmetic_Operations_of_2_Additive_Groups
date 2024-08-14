@@ -39,7 +39,7 @@ fn main() {
     }
 
     // Example of computing (a, b) + (e, f)
-    let (a, b) = elements[9]; // Example element from Z_n x Z_m
+    let (a, b) = elements[12]; // Example element from Z_n x Z_m
     let (e, f) = elements[11]; // Another example element from Z_n x Z_m
 
     let sum = sum_mod((a, b), (e, f), n, m);
